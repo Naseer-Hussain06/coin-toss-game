@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.padding {
+  padding: 30px;
+}
+
+.bg-color {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: #a35200;
+  font-weight: 700;
+}
+
+.para {
+  color: #334155;
+  font-weight: 400;
+}
+
+.coin-card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.coin {
+  height: 150px;
+  width: 150px;
+}
+
+.btn {
+  margin: 14px;
+  color: #a35200;
+  background-color: #f9d423;
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.span {
+  display: flex;
+  justify-content: space-between;
+  color: #475569;
+}
